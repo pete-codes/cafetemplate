@@ -3,15 +3,30 @@ background-color:#ff4c68;
 color:white;
 height:100%;
 padding: 3% 15% 7%;
+background-image:linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("cafestaff.jpg");
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:600px;
+}
+
+hover:nav {
+  text-decoration: underline;
 }
 
 h1 {
-  color:white;
+  color:black;
   font-weight:900;
   size: 2.5rem;
   line height:1.5;
-  font-family: Montserrat;
+  border: white solid 1px black;
 
+}
+
+h2 {
+  text-align: center;
+  vertical-align: middle;;
 }
 
 .nav-link {
@@ -24,12 +39,7 @@ h1 {
   font-size:3.5rem;
   font-family:'Montserrat-Black', sans-serif;
       line-height: 1.5;
-      background-image:linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("cafestaff.jpg");
-      -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     height:100px;
+
     }
 
 }
@@ -44,21 +54,8 @@ color:#ff4c68;
   font-family:montserrat;
 }
 
-#phone {
-  float:right;
-  padding-right: 30px;
-  padding-left: 30px;
 
-  padding-top:30px;
-  transform:rotate(22deg);
--ms-transform:rotate(22deg); /* Internet Explorer */
--moz-transform:rotate(22deg); /* Firefox */
--webkit-transform:rotate(22deg)
-}
 
-.downloadButtons {
-  padding-top:5px;
-}
 
 .table>tbody>tr>td,
 .table>tbody>tr>th {
@@ -67,7 +64,7 @@ border-top: none;
 #features {
   text-align:center;
   border:none;
-  padding: 150px 150px;
+  padding: 100px 100px;
 }
 
 h3 {
@@ -166,14 +163,9 @@ h4 {
 
 button {
   text-align: center;
-   color:white;
+   color:black;
    background-color:inherit;
-   border:white solid 1px;
-}
-
-.footer {
-  text-align:center;
-  color:black;
+   border:black solid 1px;
 }
 
 .socialmedia {
@@ -182,4 +174,8 @@ button {
   padding-left: 10px;
 
   display: inline-block;
+}
+
+footer {
+  padding: 20px 20px;
 }
